@@ -40,7 +40,6 @@ export default function App() {
         <Text style={styles.name}>Name</Text>
         <TextInput
           style={styles.input}
-          // value={number}
           placeholder="Enter your name"
           keyboardType="numeric"
           placeholderTextColor={"#999696"}
@@ -49,7 +48,6 @@ export default function App() {
         <Text style={styles.email}>Email Address</Text>
         <TextInput
           style={styles.input}
-          // value={number}
           placeholder="dev@native.com"
           keyboardType="numeric"
           autoFocus={true}
@@ -58,14 +56,12 @@ export default function App() {
         <Text style={styles.password}>Password</Text>
         <TextInput
           style={styles.input}
-          // value={number}
           placeholder="Create password"
           keyboardType="numeric"
           placeholderTextColor={"#999696"}
         />
         <TextInput
           style={styles.input}
-          // value={number}
           placeholder="Comfirm password"
           keyboardType="numeric"
           placeholderTextColor={"#999696"}
